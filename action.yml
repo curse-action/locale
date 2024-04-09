@@ -7,7 +7,7 @@ inputs:
     required: true
 runs:
   using: "node20"
-  main: "dist/action.js"
+  main: "index.js"
 branding:
   color: "blue"
   icon: "play"
