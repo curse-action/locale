@@ -1,0 +1,14 @@
+name: "Curse locale"
+description: "addons localization auto scan/import/export action"
+author: "Dencer"
+inputs:
+  token:
+    description: "curse token"
+    required: true
+    default: ${{ secrets.CURSE_TOKEN }}
+runs:
+  using: "node20"
+  main: "dist/action.js"
+branding:
+  color: "blue"
+  icon: "play"
