@@ -2,7 +2,7 @@ name: "Curse locale"
 description: "addons localization auto scan/import/export action"
 author: "Dencer"
 inputs:
-  token:
+  curse-wow-token:
     description: "curse token"
     required: true
 runs:
